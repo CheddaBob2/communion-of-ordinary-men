@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Mail, Film, BookOpen, Users, Flame, Cross, Music, MessageCircle, Lock, UserPlus, ExternalLink, Mountain } from 'lucide-react'
+import { Mail, Film, BookOpen, Users, Flame, Cross, Music, MessageCircle, Lock, UserPlus, ExternalLink, Mountain, ShoppingBag } from 'lucide-react'
 import './styles.css'
 
 const links = {
