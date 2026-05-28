@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Mail, Film, BookOpen, Users, Flame, Cross, Music, MessageCircle, Lock, UserPlus, ExternalLink, Mountain, ShoppingBag } from 'lucide-react'
+import { Mail, Film, BookOpen, Users, Flame, Cross, Music, MessageCircle, Lock, UserPlus, ExternalLink, Mountain } from 'lucide-react'
 import './styles.css'
 
 const links = {
@@ -11,7 +11,7 @@ const links = {
   eliMusic: 'https://elasticstage.com/srr',
   eliAlbumAmazon: 'https://www.amazon.com/Sorrowful/dp/B0GQ27LT1M',
   email: 'mailto:communionofordinarymen@gmail.com',
-  sheenImage: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Fulton_J._Sheen_NYWTS.jpg'
+  sheenImage: '/sheen.webp'
 }
 
 function ButtonLink({ href, children, outline=false }) {
